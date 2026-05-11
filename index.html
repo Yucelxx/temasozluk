@@ -232,7 +232,16 @@
       font-size: 14px;
       color: rgba(255,255,255,0.78);
     }
-
+.download-btn{
+  display:inline-block;
+  margin-top:20px;
+  background:white;
+  color:#064375;
+  padding:14px 22px;
+  border-radius:16px;
+  text-decoration:none;
+  font-weight:800;
+}
     footer {
       text-align: center;
       padding: 34px 8%;
@@ -328,21 +337,44 @@
       </div>
     </section>
 
-  <section id="indir">
+ <section id="indir">
   <div class="download-box">
+
     <div class="download-card">
       <h3>Windows Sürümü</h3>
-      <p>Bilgisayara kurulum yaparak TemaSözlük uygulamasını masaüstünde kullan.</p>
-      <a href="https://github.com/Yucelxx/temasozluk/releases/latest/download/TemaSozluk-Setup.exe">
-      <div class="note">Windows kurulum dosyasıdır.</div>
+
+      <p>
+        Bilgisayara kurulum yaparak TemaSözlük uygulamasını masaüstünde kullan.
+      </p>
+
+      <a class="download-btn"
+         href="https://github.com/Yucelxx/temasozluk/releases/latest/download/TemaSozluk-Setup.exe">
+         Windows için indir
+      </a>
+
+      <div class="note">
+        Windows kurulum dosyası
+      </div>
     </div>
 
     <div class="download-card">
       <h3>Android Sürümü</h3>
-      <p>APK dosyasını indirerek Android telefon veya tablette kullan.</p>
-      <a href="./TemaSozluk-Android.apk" download>Android APK indir</a>
-      <div class="note">Android cihazlarda bilinmeyen kaynaklara izin vermeniz gerekebilir.</div>
+
+      <p>
+        APK dosyasını indirerek Android telefon veya tablette kullan.
+      </p>
+
+      <a class="download-btn"
+         href="./TemaSozluk-Android.apk"
+         download>
+         Android APK indir
+      </a>
+
+      <div class="note">
+        Android cihazlarda bilinmeyen kaynaklara izin vermen gerekebilir.
+      </div>
     </div>
+
   </div>
 </section>
 
